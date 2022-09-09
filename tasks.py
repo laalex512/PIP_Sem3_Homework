@@ -37,3 +37,23 @@
 # for i in range(round(n/2+0.25)):
 #     resultList.append(initList[i]*initList[n-1-i])
 # print(resultList)
+
+
+# Task 24
+# Задайте список из вещественных чисел.
+# Напишите программу, которая найдёт разницу между максимальным и минимальным значением дробной части элементов.
+# Пример:
+# - [1.1, 1.2, 3.1, 5, 10.01] => 0.19
+
+# from random import randint
+
+
+# n = 6
+# initList = [0]*n
+# for i in range(n):
+#     initList[i] = randint(0, 1000)/100
+# print(initList)
+# fractList = [0]*n
+# for i in range(n):
+#     fractList[i] = round(initList[i] % 1, 3)
+# print(max(fractList)+min(fractList))
