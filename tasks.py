@@ -57,3 +57,29 @@
 # for i in range(n):
 #     fractList[i] = round(initList[i] % 1, 3)
 # print(max(fractList)+min(fractList))
+
+
+# Task 25
+# Напишите программу, которая будет преобразовывать десятичное число в двоичное.
+
+# Пример:
+
+# - 45 -> 101101
+# - 3 -> 11
+# - 2 -> 10
+
+
+# result = ""
+# n = int(input("Insert N: "))
+
+# # Функция
+# result2 = bin(n)
+# print(result2.split("b")[1])
+
+# # Алгоритм
+# if n == 0:
+#     print(n)
+# while (n > 0):
+#     result = str(n % 2) + result
+#     n = n//2
+# print(result)
